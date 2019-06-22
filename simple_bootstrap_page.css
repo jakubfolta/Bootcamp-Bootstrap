@@ -1,5 +1,6 @@
 body {
     padding-top: 50px;
+    padding-bottom: 75px;
 }
 
 .jumbotron {
@@ -21,6 +22,4 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-}
-
 }
