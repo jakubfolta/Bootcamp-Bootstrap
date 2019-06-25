@@ -12,12 +12,38 @@ body {
     margin-bottom: 0;
 }
 
+[class*="example"]{
+  min-height:300px;
+}
+
+.example-1 {
+    background-color:#59ABE3;
+}
+
+.example-2 {
+    background-color:#2ECC71;
+}
+
+.example-3 {
+    background-color: #F89406;
+}
+
+.example-4 {
+    background-color:#F22613;
+}
+
+.modal-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 767px) {
     body {
         padding-top: 323px;
     }
 
-    .btn {
+    .navbar-button {
         display: block;
         margin-left: auto;
         margin-right: auto;
