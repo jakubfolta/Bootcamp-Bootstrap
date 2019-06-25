@@ -14,6 +14,17 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#" rel="noopener" target="_blank">World</a>
                 </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="inputText" role="search" placeholder="Search">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </form>
             </div>
         </nav>
         <div class="container">
@@ -21,9 +32,21 @@
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget efficitur arcu. Nunc non eros pellentesque, gravida nisi nec, consequat metus. Integer euismod est vitae maximus suscipit. Vestibulum nisi dolor, bibendum sed consequat suscipit, mattis ornare lorem. Ut maximus in augue sit amet dignissim. Nullam rhoncus fringilla metus, quis dignissim elit lacinia a.
             </p>
+            <button type="button" class="btn btn-danger btn-lg">Warning!</button>
         </div>
     </div>
-
-
+    <div class="dropdown">
+        <button type="button" class="btn btn-default dropdown-toggle" id="menu" data-toggle="dropdown">
+            Menu 3 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" arialaballedby="menu">
+            <li role="presentation"><a role="menuitem" href="#">Scroll 1</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" href="#">Scroll 2</a></li>
+            <li role="presentation"><a role="menuitem" href="#">Scroll 3</a></li>
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
