@@ -8,6 +8,7 @@
     <link rel="stylesheet" style="text/css" href="simple_bootstrap_page.css">
 </head>
 <body>
+    <!-- Start of navbar with search form -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -27,6 +28,47 @@
             </form>
         </div>
     </nav>
+    <!-- End of navbar with search form -->
+    <div="container">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
+                Scrolls<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="menu">
+                <li role="presentation"><a role="menuitem" href="#">Scroll 1</a></li>
+                <li role="presentation"><a role="menuitem" href="#">Scroll 2</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" href="#">Scroll 3</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Start of carousel -->
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active example-1"></div>
+                <div class="item example-2"></div>
+                <div class="item example-3"></div>
+                <div class="item example-4"></div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- End of carousel -->
+    <!-- Start of tab navbar -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <ul class="nav nav-tab nav-justified">
@@ -63,6 +105,8 @@
             </div>
         </div>
     </nav>
+    <!-- End of tab navbar -->
+    <!-- Start of modal -->
     <div class="container">
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
             Check it out!
@@ -88,30 +132,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="item active example-1"></div>
-                <div class="item example-2"></div>
-                <div class="item example-3"></div>
-                <div class="item example-4"></div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
+    <!-- End of modal -->
     <div class="jumbotron text-center">
         <div class="container">
             <h1>Welcome!</h1>
