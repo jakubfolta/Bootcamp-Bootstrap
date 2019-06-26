@@ -58,9 +58,3 @@ body {
         text-align: center;
     }
 }
-
-@media (max-width: 991px) {
-    .hamburger-menu {
-        float: right;
-    }
-}
