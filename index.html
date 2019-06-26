@@ -22,6 +22,20 @@
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
                     <button type="submit" class="btn btn-default navbar-button">Submit</button>
+                    <div class="visible-xs-block visible-xs-block visible-lg-inline-block text-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="glyphicon glyphicon-alert"></span> Transfer assets! <span class="glyphicon glyphicon-alert"></span>
+                                <span class="glyphicon glyphicon-chevron-down"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="text-center"><a href="#">Money</a></li>
+                                <li class="text-center"><a href="#">Land</a></li>
+                                <li class="text-center"><a href="#">Stocks</a></li>
+                                <li class="disabled text-center"><a href="#">Wife  <span class="glyphicon glyphicon-retweet"></span>  New model</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </form>
             <div class="collapse navbar-collapse" id="hamb-menu">
@@ -35,19 +49,6 @@
         </div>
     </nav>
     <!-- End of navbar with search form -->
-    <div="container">
-        <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
-                Scrolls<span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="menu">
-                <li role="presentation"><a role="menuitem" href="#">Scroll 1</a></li>
-                <li role="presentation"><a role="menuitem" href="#">Scroll 2</a></li>
-                <li role="presentation" class="divider"></li>
-                <li role="presentation"><a role="menuitem" href="#">Scroll 3</a></li>
-            </ul>
-        </div>
-    </div>
     <!-- Start of carousel -->
     <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -74,44 +75,6 @@
         </div>
     </div>
     <!-- End of carousel -->
-    <!-- Start of tab navbar -->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <ul class="nav nav-tab nav-justified">
-                <li class="active" data-toggle="tab"><a data-toggle="tab" href="#home">Home</a></li>
-                <li><a data-toggle="tab" href="#about">About</a></li>
-                <li><a data-toggle="tab" href="#scrolls">Scrolls</a></li>
-                <li><a data-toggle="tab" href="#mylife">My life</a></li>
-            </ul>
-            <div class="tab-content">
-                <div id="home" class="tab-pane fade in active">
-                    <h3>Home</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget efficitur arcu. Nunc non eros pellentesque, gravida nisi nec, consequat metus. Integer euismod est vitae maximus suscipit. Vestibulum nisi dolor, bibendum sed consequat suscipit, mattis ornare lorem. Ut maximus in augue sit amet dignissim. Nullam rhoncus fringilla metus, quis dignissim elit lacinia a. Donec vel volutpat nibh. Morbi maximus tortor lacus, eget cursus augue aliquam sed.
-                    </p>
-                </div>
-                <div id="about" class="tab-pane fade">
-                    <h3>About</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget efficitur arcu. Nunc non eros pellentesque, gravida nisi nec, consequat metus. Integer euismod est vitae maximus suscipit. Vestibulum nisi dolor, bibendum sed consequat suscipit, mattis ornare lorem. Ut maximus in augue sit amet dignissim. Nullam rhoncus fringilla metus, quis dignissim elit lacinia a. Donec vel volutpat nibh. Morbi maximus tortor lacus, eget cursus augue aliquam sed.
-                    </p>
-                </div>
-                <div id="scrolls" class="tab-pane fade">
-                    <h3>Scrolls</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget efficitur arcu. Nunc non eros pellentesque, gravida nisi nec, consequat metus. Integer euismod est vitae maximus suscipit. Vestibulum nisi dolor, bibendum sed consequat suscipit, mattis ornare lorem. Ut maximus in augue sit amet dignissim. Nullam rhoncus fringilla metus, quis dignissim elit lacinia a. Donec vel volutpat nibh. Morbi maximus tortor lacus, eget cursus augue aliquam sed.
-                    </p>
-                </div>
-                <div id="mylife" class="tab-pane fade">
-                    <h3>My life</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget efficitur arcu. Nunc non eros pellentesque, gravida nisi nec, consequat metus. Integer euismod est vitae maximus suscipit. Vestibulum nisi dolor, bibendum sed consequat suscipit, mattis ornare lorem. Ut maximus in augue sit amet dignissim. Nullam rhoncus fringilla metus, quis dignissim elit lacinia a. Donec vel volutpat nibh. Morbi maximus tortor lacus, eget cursus augue aliquam sed.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- End of tab navbar -->
     <!-- Start of modal -->
     <div class="container">
         <button type="button" class="btn btn-primary btn-lg modal-button" data-toggle="modal" data-target="#myModal">
@@ -240,7 +203,45 @@
                 </p>
             </div>
         </div>
-        <nav class="text-center navbar-fixed-bottom" aria-label="Page navigation">
+        <!-- Start of tab navbar -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav nav-tab nav-justified">
+                    <li class="active" data-toggle="tab"><a data-toggle="tab" href="#home">Home</a></li>
+                    <li><a data-toggle="tab" href="#about">About</a></li>
+                    <li><a data-toggle="tab" href="#scrolls">Scrolls</a></li>
+                    <li><a data-toggle="tab" href="#mylife">My life</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <h3>Home</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget efficitur arcu. Nunc non eros pellentesque, gravida nisi nec, consequat metus. Integer euismod est vitae maximus suscipit. Vestibulum nisi dolor, bibendum sed consequat suscipit, mattis ornare lorem. Ut maximus in augue sit amet dignissim. Nullam rhoncus fringilla metus, quis dignissim elit lacinia a. Donec vel volutpat nibh. Morbi maximus tortor lacus, eget cursus augue aliquam sed.
+                        </p>
+                    </div>
+                    <div id="about" class="tab-pane fade">
+                        <h3>About</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget efficitur arcu. Nunc non eros pellentesque, gravida nisi nec, consequat metus. Integer euismod est vitae maximus suscipit. Vestibulum nisi dolor, bibendum sed consequat suscipit, mattis ornare lorem. Ut maximus in augue sit amet dignissim. Nullam rhoncus fringilla metus, quis dignissim elit lacinia a. Donec vel volutpat nibh. Morbi maximus tortor lacus, eget cursus augue aliquam sed.
+                        </p>
+                    </div>
+                    <div id="scrolls" class="tab-pane fade">
+                        <h3>Scrolls</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget efficitur arcu. Nunc non eros pellentesque, gravida nisi nec, consequat metus. Integer euismod est vitae maximus suscipit. Vestibulum nisi dolor, bibendum sed consequat suscipit, mattis ornare lorem. Ut maximus in augue sit amet dignissim. Nullam rhoncus fringilla metus, quis dignissim elit lacinia a. Donec vel volutpat nibh. Morbi maximus tortor lacus, eget cursus augue aliquam sed.
+                        </p>
+                    </div>
+                    <div id="mylife" class="tab-pane fade">
+                        <h3>My life</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget efficitur arcu. Nunc non eros pellentesque, gravida nisi nec, consequat metus. Integer euismod est vitae maximus suscipit. Vestibulum nisi dolor, bibendum sed consequat suscipit, mattis ornare lorem. Ut maximus in augue sit amet dignissim. Nullam rhoncus fringilla metus, quis dignissim elit lacinia a. Donec vel volutpat nibh. Morbi maximus tortor lacus, eget cursus augue aliquam sed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End of tab navbar -->
+        <nav class="text-center" aria-label="Page navigation">
             <div class="container">
                 <ul class="pagination pagination-sm">
                     <li class="disabled">
