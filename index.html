@@ -9,18 +9,23 @@
 </head>
 <body>
     <!-- Start of navbar with search form -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#" rel="noopener" target="_blank">Game World</a>
-                <>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamb-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-resize-full"></span>
+                </button>
             </div>
-            <ul class="text-center nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Scrolls</a></li>
-                <li><a href="#">My life</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="hamb-menu">
+                <ul class="nav navbar-nav text-center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Scrolls</a></li>
+                    <li class="disabled"><a href="#">My life</a></li>
+                </ul>
+            </div>
             <form class="navbar-form navbar-right">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
