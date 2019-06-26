@@ -8,12 +8,14 @@
     <link rel="stylesheet" style="text/css" href="simple_bootstrap_page.css">
 </head>
 <body>
+
     <!-- Start of navbar with search form -->
+
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#" rel="noopener" target="_blank">Game World</a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamb-menu">
+                <button type="button" class="navbar-toggle collapsed hamb-icon" data-toggle="collapse" data-target="#hamb-menu">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="glyphicon glyphicon-resize-full"></span>
                 </button>
@@ -22,7 +24,7 @@
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
                     <button type="submit" class="btn btn-default navbar-button">Submit</button>
-                    <div class="visible-xs-block visible-xs-block visible-lg-inline-block text-center">
+                    <div class="transfer-dropdown-button">
                         <div class="btn-group">
                             <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="glyphicon glyphicon-alert"></span> Transfer assets! <span class="glyphicon glyphicon-alert"></span>
@@ -32,13 +34,13 @@
                                 <li class="text-center"><a href="#">Money</a></li>
                                 <li class="text-center"><a href="#">Land</a></li>
                                 <li class="text-center"><a href="#">Stocks</a></li>
-                                <li class="disabled text-center"><a href="#">Wife  <span class="glyphicon glyphicon-retweet"></span>  New model</a></li>
+                                <li class="disabled text-center"><a href="#">Wife</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </form>
-            <div class="collapse navbar-collapse" id="hamb-menu">
+            <div class="collapse navbar-collapse hamburger-menu" id="hamb-menu">
                 <ul class="nav navbar-nav text-center">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -48,8 +50,23 @@
             </div>
         </div>
     </nav>
+
     <!-- End of navbar with search form -->
+
+    <!-- Start of jumbotron -->
+
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1>Welcome!</h1>
+            <p><small>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</small></p>
+            <button class="btn btn-default btn-primary btn-lg">Check for more!</button>
+        </div>
+    </div>
+
+    <!-- End of jumbotron -->
+
     <!-- Start of carousel -->
+
     <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -74,8 +91,11 @@
             </a>
         </div>
     </div>
+
     <!-- End of carousel -->
+
     <!-- Start of modal -->
+
     <div class="container">
         <button type="button" class="btn btn-primary btn-lg modal-button" data-toggle="modal" data-target="#myModal">
             Check it out!
@@ -101,14 +121,9 @@
             </div>
         </div>
     </div>
+
     <!-- End of modal -->
-    <div class="jumbotron text-center">
-        <div class="container">
-            <h1>Welcome!</h1>
-            <p><small>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</small></p>
-            <button class="btn btn-default btn-primary btn-lg">Check for more!</button>
-        </div>
-    </div>
+
     <div class="container">
         <div class="panel panel-default">
             <div class="panel-heading text-center">
@@ -203,7 +218,9 @@
                 </p>
             </div>
         </div>
+
         <!-- Start of tab navbar -->
+
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <ul class="nav nav-tab nav-justified">
@@ -240,7 +257,9 @@
                 </div>
             </div>
         </nav>
+
         <!-- End of tab navbar -->
+
         <nav class="text-center" aria-label="Page navigation">
             <div class="container">
                 <ul class="pagination pagination-sm">
