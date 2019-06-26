@@ -1,11 +1,14 @@
 body {
     padding-top: 50px;
-    padding-bottom: 75px;
 }
 
 .jumbotron {
     background: url("https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024_1280.jpg") center/cover;
     color: #fff;
+}
+
+.transfer-button {
+    display: inline-block;
 }
 
 .navbar {
@@ -40,7 +43,7 @@ body {
 
 @media (max-width: 767px) {
     body {
-        padding-top: 163px;
+        padding-top: 197px;
     }
 
     .navbar-button {
